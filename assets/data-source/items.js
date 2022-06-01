@@ -1,50 +1,50 @@
 const items = [
 	{
-		name: 'Casco medieval',
+		name: 'Hotel fachero',
 		price: '$16.500',
 		imageSrc: './assets/images/art1.jpg',
-		publicationType: 'Venta directa'
+		publicationType: 'Paquete'
 	},
 	{
-		name: 'Reloj de madera',
+		name: 'Hotel de luis',
 		price: '$8700',
 		imageSrc: './assets/images/art2.jpg',
-		publicationType: 'Venta directa'
+		publicationType: 'Paquete'
 	},
 	{
 		name: 'Jarrón indú',
 		price: '$5500',
 		imageSrc: './assets/images/art3.jpg',
-		publicationType: 'Venta directa'
+		publicationType: 'Daytoor'
 	},
 	{
 		name: 'Calavera mexicana',
 		price: '$2450',
 		imageSrc: './assets/images/art4.jpg',
-		publicationType: 'Venta directa'
+		publicationType: 'FreeShop'
 	},
 	{
 		name: 'Colgantes de plata',
 		price: 'Art. de muestra',
 		imageSrc: './assets/images/art5.jpg',
-		publicationType: 'Muestra'
+		publicationType: 'Pasaje'
 	},
 	{
 		name: 'Caja mágica',
 		price: 'Art. de muestra',
 		imageSrc: './assets/images/art6.jpg',
-		publicationType: 'Muestra'
+		publicationType: 'Paquete'
 	},
 	{
 		name: 'Moño para colgar',
 		price: 'Art. de muestra',
 		imageSrc: './assets/images/art7.jpg',
-		publicationType: 'Muestra'
+		publicationType: 'FreeShop'
 	},
 	{
 		name: 'Atrapa sueños',
 		price: 'Art. de muestra',
 		imageSrc: './assets/images/art8.jpg',
-		publicationType: 'Muestra'
+		publicationType: 'FreeShop'
 	}
 ];

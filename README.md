@@ -4,8 +4,8 @@
 Especificacion y verificacion de software COM 02
 
 ## Profesores
-Cristian Ciarallo
-Paula Perez Willis
+Cristian Ciarallo,
+Paula Perez Willis.
 
 ## Integrantes del grupo
 Matias Alpuin,

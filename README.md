@@ -1,4 +1,4 @@
-# Artesanos.com | UNGS
+# BuqueAltoque.com | UNGS
 
 ## Materia
 Especificacion y verificacion de software COM 02
@@ -8,8 +8,8 @@ Cristian Ciarallo
 Paula Perez Willis
 
 ## Integrantes del grupo
-Matias Alpuin.
-Joaquin Zanardi.
+Matias Alpuin,
+Joaquin Zanardi,
 Joaquin Muñoz.
 
 ## Descripción

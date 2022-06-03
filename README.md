@@ -1,18 +1,16 @@
 # Artesanos.com | UNGS
 
 ## Materia
-Ingenería de Software COM 02
+Especificacion y verificacion de software COM 02
 
 ## Profesores
-Daniel Alvarez
-Carlos Nelson Jimenez 
+Cristian Ciarallo
+Paula Perez Willis
 
 ## Integrantes del grupo
-Fernando Ferreyra 
-Nicolás Rodriguez 
-Nicolás Wendler 
-Sergio Esquivel 
+Matias Alpuin.
+Joaquin Zanardi.
 Joaquin Muñoz.
 
 ## Descripción
-Proyecto para Trabajo Práctico "artesanos"
+Proyecto para Trabajo Práctico

@@ -1,11 +1,11 @@
-# BuqueAltoque.com | UNGS
+# Buquealtoque.com | UNGS
 
 ## Materia
-Especificacion y verificacion de software COM 02
+Especificación y verificación de Software COM 02
 
 ## Profesores
 Cristian Ciarallo,
-Paula Perez Willis.
+Paula Perez Willis. 
 
 ## Integrantes del grupo
 Matias Alpuin,
@@ -13,4 +13,4 @@ Joaquin Zanardi,
 Joaquin Muñoz.
 
 ## Descripción
-Proyecto para Trabajo Práctico
+Proyecto para Trabajo Práctico "BuqueAltoque"

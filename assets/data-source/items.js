@@ -1,50 +1,50 @@
 const items = [
 	{
-		name: 'Hotel fachero',
+		name: 'Hotel Crans',
 		price: '$16.500',
 		imageSrc: './assets/images/art1.jpg',
 		publicationType: 'Paquete'
 	},
 	{
-		name: 'Hotel de luis',
-		price: '$8700',
+		name: 'Hotel de Ibis',
+		price: '$8.700',
 		imageSrc: './assets/images/art2.jpg',
 		publicationType: 'Paquete'
 	},
 	{
-		name: 'Jarrón indú',
-		price: '$5500',
+		name: 'Hotel Nahuel Huapi',
+		price: '$5.500',
 		imageSrc: './assets/images/art3.jpg',
-		publicationType: 'Daytoor'
+		publicationType: 'Pasaje'
 	},
 	{
-		name: 'Calavera mexicana',
-		price: '$2450',
+		name: 'Hotel Donna',
+		price: '$2.450',
 		imageSrc: './assets/images/art4.jpg',
-		publicationType: 'FreeShop'
+		publicationType: 'Pasaje'
 	},
 	{
-		name: 'Colgantes de plata',
-		price: 'Art. de muestra',
+		name: 'Hotel jonhson',
+		price: '$5.000',
 		imageSrc: './assets/images/art5.jpg',
 		publicationType: 'Pasaje'
 	},
 	{
-		name: 'Caja mágica',
-		price: 'Art. de muestra',
+		name: 'Hotel Cambria',
+		price: '$4.500',
 		imageSrc: './assets/images/art6.jpg',
-		publicationType: 'Paquete'
+		publicationType: 'Pasaje'
 	},
 	{
-		name: 'Moño para colgar',
-		price: 'Art. de muestra',
+		name: 'Hotel Hilton',
+		price: '$3.200',
 		imageSrc: './assets/images/art7.jpg',
-		publicationType: 'FreeShop'
+		publicationType: 'Pasaje'
 	},
 	{
-		name: 'Atrapa sueños',
-		price: 'Art. de muestra',
+		name: 'Hotel Huemul',
+		price: '$6.000',
 		imageSrc: './assets/images/art8.jpg',
-		publicationType: 'FreeShop'
+		publicationType: 'Pasaje'
 	}
 ];

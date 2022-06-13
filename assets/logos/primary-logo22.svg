@@ -1,13 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="55" viewBox="0 0 236 55">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-2 {
         font-size: 25px;
+      }
+
+      .cls-1 {
         fill: #003cff;
         font-family: "Eras Bold ITC";
+      }
+
+      .cls-2 {
+        font-family: "Britannic Bold";
       }
     </style>
   </defs>
   <image id="Capa_1" data-name="Capa 1" x="52" y="38" width="133" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAANCAYAAACHOa2JAAACSUlEQVRYhdVY0XEaMRRcbvIfOgiuwOcKYjrAFQQqsK8CryvgUgG4A6cC7Aqgg1wqCCVklqxszQ0wmXygdzujGSR9sPe0em/1RiRvAYDkK3ogOQEwObZ3SZCsAYwB7Eju878mqXXt70nuSvJMcEy/KXYA3gC8ROGWkMUt4T22FYCNxzHMz+xdEkvzWB75z/rM3kWhQJNcAXgE8MuCkDi2Xg8Bkg8Afmdnr/EzJYgqCtF/xDwRD4qDMElOaQC4URaLwp3kzDxfAEw9Ft7eaP9TYY7/gxXJm34ZKQ2X2luSVzkV8SS5BqDbKVEULcUA7l0q7vLFv/qFstn90ESxd51Wem4C8Mlx8sBJNsH4jo+sKXN0ivHQRNE49T2QfA5m3ib2EdHx5oy2BfDdQkgm8yDqoYlCH/BkYaxcr0PC5WSec6NzdGG0AL46syXzqxIngbQSx9CMpgLbWtF1kCAnSLDX2TyVuXwUhz2OzOWVM+/O5eQxiWSIRhP+mK0/pAvABxbq+8G7tzPCR4YIIYoEkp2zRuuspuw70wupsnlLzYw+rtN+JNhLPJlS8f4EPoKMyE9mHb5fyv2y1vk1cvBolc0G+sF1F3FmVxoOvn27E066FJ4VR9+8FMdxr6yURCoTy34S8FxjP/Jk6xqoIP8A8MUmSfNp6Z4AyY2N0TRvuftWpo7rq2tlUdjV1yc4rEkuCvNbumfSWcTCZ5+32vGLygd+54xQW0nKEOsIgjgHC6QNxkkvIh18/lzW76a0IAT3TFLjKplgCULn3QDAHzrB+LRttLRvAAAAAElFTkSuQmCC"/>
-  <text id="BuqueAltoque" class="cls-1" transform="matrix(1.175, 0, 0, 1.175, -1, 28.157)">BuqueAltoque</text>
+  <text id="BuqueAltoque" class="cls-1" transform="matrix(0.954, 0, 0, 0.954, -1, 26.54)">BuqueAltoque</text>
+  <text id="_.COM" data-name=".COM" class="cls-2" transform="translate(135.402 28.094) rotate(0.418) scale(0.813)">.COM</text>
 </svg>

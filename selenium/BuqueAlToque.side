@@ -490,6 +490,426 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "cd601124-c91e-425c-99c3-f33b565044a6",
+    "name": "Paquete-reservar correcto",
+    "commands": [{
+      "id": "a5a93651-318d-4647-b26f-ea1aa428f47e",
+      "comment": "",
+      "command": "open",
+      "target": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "653ba5c7-76b7-4b19-b7e5-f0d2ca58fb22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1374x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0890713-4e5d-4c5a-b1b0-d1d2027a7396",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dark-primary",
+      "targets": [
+        ["css=.btn-dark-primary", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ae8052-25f5-43cf-8c32-58ecf9e2cfd6",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de66bbc0-7507-4709-ad3c-5cf7b790b649",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "4a52b2c9-d10e-4e74-ae6c-2342cd5932ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "238dc727-6184-491c-a5b0-dad3dfeeaa8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "d569545e-ff1d-4e89-8a87-3da53d8130b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c41d70c-a03e-4482-b79b-a7e4519d7a30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-gray",
+      "targets": [
+        ["css=.btn-gray", "css:finder"],
+        ["xpath=//div[@id='alert']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver paquetes disponibles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8a6d4fd-3fed-4307-a5e6-765729471f04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(1) a",
+      "targets": [
+        ["css=.item-container:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='item-list-container']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './seleccionpasaje2.html')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095f66d8-459c-4784-b442-5ca4f4660357",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9322e560-62f9-438d-877d-c7b58fe11d02",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "joaquin"
+    }, {
+      "id": "4fd372f9-e948-4131-afe5-54ae273cfeb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22cb89bc-72ec-44db-b21f-f8c58e12fe61",
+      "comment": "",
+      "command": "type",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "matias"
+    }, {
+      "id": "2338cdf7-e761-491e-b0d3-8d414f1bf738",
+      "comment": "",
+      "command": "click",
+      "target": "id=dni",
+      "targets": [
+        ["id=dni", "id"],
+        ["css=#dni", "css:finder"],
+        ["xpath=//input[@id='dni']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63c2e37d-0f8e-4d1c-8c34-f4e608f276f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=dni",
+      "targets": [
+        ["id=dni", "id"],
+        ["css=#dni", "css:finder"],
+        ["xpath=//input[@id='dni']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "2105252"
+    }, {
+      "id": "7c760d09-85dd-431f-88af-baa62fae28f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=domicilio",
+      "targets": [
+        ["id=domicilio", "id"],
+        ["css=#domicilio", "css:finder"],
+        ["xpath=//input[@id='domicilio']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef30b515-b83f-425e-9f9a-ab003c7b54ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=domicilio",
+      "targets": [
+        ["id=domicilio", "id"],
+        ["css=#domicilio", "css:finder"],
+        ["xpath=//input[@id='domicilio']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "rio cuarto 15"
+    }, {
+      "id": "f85c9b75-0c10-489b-bf4d-dcb9dcce10e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mpago",
+      "targets": [
+        ["id=mpago", "id"],
+        ["css=#mpago", "css:finder"],
+        ["xpath=//select[@id='mpago']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b956bc9a-7063-44b2-bd37-878e8ef8737b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mpago",
+      "targets": [
+        ["id=mpago", "id"],
+        ["css=#mpago", "css:finder"],
+        ["xpath=//select[@id='mpago']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c5e96a5-4037-4ba4-8850-5f623121c503",
+      "comment": "",
+      "command": "select",
+      "target": "id=mpago",
+      "targets": [],
+      "value": "label=Tarjeta de Credito"
+    }, {
+      "id": "d4e5c036-fc65-4043-b0be-82a27838919b",
+      "comment": "",
+      "command": "click",
+      "target": "id=discapacidad",
+      "targets": [
+        ["id=discapacidad", "id"],
+        ["css=#discapacidad", "css:finder"],
+        ["xpath=//select[@id='discapacidad']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b0f0d8f-2fc7-4862-92e8-56cdaaba347b",
+      "comment": "",
+      "command": "select",
+      "target": "id=discapacidad",
+      "targets": [],
+      "value": "label=Si"
+    }, {
+      "id": "8eeaae03-da44-4382-9a45-67defbf6ba2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=acompañante",
+      "targets": [
+        ["id=acompañante", "id"],
+        ["css=#acompa\\F1 ante", "css:finder"],
+        ["xpath=//select[@id='acompañante']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a188d2bf-a102-4a07-b84c-f6f85b608403",
+      "comment": "",
+      "command": "select",
+      "target": "id=acompañante",
+      "targets": [],
+      "value": "label=Si"
+    }, {
+      "id": "411c2694-9731-47cd-ae6a-05a0d46f16b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(13) > .btn",
+      "targets": [
+        ["css=a:nth-child(13) > .btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirmar reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c896f68-6334-483a-a073-1a721bd1eff2",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > .btn-primary",
+      "targets": [
+        ["css=a:nth-child(4) > .btn-primary", "css:finder"],
+        ["xpath=//div[@id='alert']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ir al home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8e6d427d-797f-4c68-a7b4-14a63c3e2278",
+    "name": "Paquete-reservar incorrecto",
+    "commands": [{
+      "id": "9ed42322-c44d-4dc5-9990-af8c767ceed4",
+      "comment": "",
+      "command": "open",
+      "target": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9599a6ba-0de7-4efb-85ca-a65e3f916e97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1374x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "242f8a0b-5c1e-4015-a1b0-4bd3f08251df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dark-primary",
+      "targets": [
+        ["css=.btn-dark-primary", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5a0f2bc-e508-457f-99c3-26cce47e248e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d6385ff-37ff-4dfb-a5ef-c73ab011b6db",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "03da1780-98e6-4423-a015-a43667fa4db1",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "e1b910a7-2272-406f-9eda-1d15026a8ba3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d7fc1d-0d1d-47b1-99cf-dbee11d8f868",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-gray",
+      "targets": [
+        ["css=.btn-gray", "css:finder"],
+        ["xpath=//div[@id='alert']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver paquetes disponibles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58131f68-b4ae-484e-a898-0f7db9994e7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(1) a",
+      "targets": [
+        ["css=.item-container:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='item-list-container']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './seleccionpasaje2.html')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64bfed2f-d447-4019-8537-0280801f65f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(13) > .btn",
+      "targets": [
+        ["css=a:nth-child(13) > .btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirmar reserva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6de52d9-8129-43ec-9a2a-63d20fbc6b58",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Datos incompletos",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "0b83895a-8413-4356-89c2-9d040b1853ae",
@@ -504,7 +924,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["36d10329-f796-418e-8b3d-1358496c8c5f", "70424c8b-6b4d-47cb-9506-9cb782be35f5"]
+    "tests": ["36d10329-f796-418e-8b3d-1358496c8c5f", "70424c8b-6b4d-47cb-9506-9cb782be35f5", "cd601124-c91e-425c-99c3-f33b565044a6", "8e6d427d-797f-4c68-a7b4-14a63c3e2278"]
   }],
   "urls": ["https://joaquinmatias99.github.io/", "https://joaquinmatias99.github.io/RepositorioTP/home.html"],
   "plugins": []

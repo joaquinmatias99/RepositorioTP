@@ -34,7 +34,7 @@
 			<th>Nacimiento: </th>
 			<input type="date" id="nacimiento" step="1" min="1920-01-01" max="2003-1-1" value="?php echo date("
 				Y-m-d");?>
-			<button class="buttonRegistro" type="button" onclick="openForm()">Confirmar registro</button></a>
+			<button class="buttonRegistro" type="button" onclick="showAlert()">Confirmar registro</button></a>
 
 		</div>
 
@@ -48,7 +48,7 @@
 		</div>
 
 		<script>
-			function openForm() {
+			function showAlert() {
 				error = false;
 				var nom = document.getElementById('nombre').value;
 				var ape = document.getElementById('apellido').value;

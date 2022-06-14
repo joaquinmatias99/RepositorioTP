@@ -1,0 +1,511 @@
+{
+  "id": "7afec1e2-50f2-4f87-b7c3-419afcedc78f",
+  "version": "2.0",
+  "name": "BuqueAlToque",
+  "url": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+  "tests": [{
+    "id": "74518f6c-990c-4d66-b728-45f1b83fbdea",
+    "name": "Login-Correcto",
+    "commands": [{
+      "id": "c112089d-421c-4089-b06e-ab0c37510de2",
+      "comment": "",
+      "command": "open",
+      "target": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d35d14d-a47b-4862-8032-744a2f0370f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a98313b-d1a2-47c2-b324-9b5d2819771e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-seccondary",
+      "targets": [
+        ["css=.btn-seccondary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acceder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f82a58d-0f71-4671-8406-94b10625b2bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af0f82e3-a25e-4038-ab1d-1e70f5259294",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "a567ecca-6b8c-4b06-8ed6-5a08b1ef4702",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e8bfc15-46b7-4950-942f-e4edde081a86",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "916d19ff-c3f9-4a8f-af36-1cbc40b51941",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7f951e2-92be-44d7-a4b1-e688eef9144c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-gray",
+      "targets": [
+        ["css=.btn-gray", "css:finder"],
+        ["xpath=//div[@id='alert']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver paquetes disponibles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "095d8034-abfe-4f97-83c6-0dec54676976",
+    "name": "Login-Incorrecto",
+    "commands": [{
+      "id": "4627d160-a2f6-489a-8c42-752277db32a5",
+      "comment": "",
+      "command": "open",
+      "target": "/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eb18d2f-f83f-480c-b20d-7b5c9f3686c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36181d2f-030f-4f4e-b657-eaa315fec793",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-seccondary",
+      "targets": [
+        ["css=.btn-seccondary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acceder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6428192f-b070-4930-b2b4-3b69b5e67af4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "360bc9db-a931-41f7-af5c-b2063f8f839d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "algo"
+    }, {
+      "id": "cfbdb130-5345-4b0e-94b3-0c1b11d8cf26",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "335bfd3c-e05f-4c5c-b6aa-a49537420ce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-container",
+      "targets": [
+        ["css=.form-container", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9b199b8-1172-44bb-8a66-4845ecf54f2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7968621d-0852-4ff8-9f4a-a41a8b105c8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "algo"
+    }, {
+      "id": "dc359112-8232-4987-a190-67d2ad7298f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "030149bc-7f7e-426e-bde1-a39d706b0bed",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Contraseña Incorrecta",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5abe7c86-ad16-405a-a0ae-93032ed701ad",
+    "name": "Login-DatosVacios",
+    "commands": [{
+      "id": "dbbca18d-5b04-449e-b77d-ed486d769fc3",
+      "comment": "",
+      "command": "open",
+      "target": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f93d4ee-1443-492e-9837-4649e26a5ab6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1fcd4b7-7b8a-44e8-867d-d36e0696d981",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-seccondary",
+      "targets": [
+        ["css=.btn-seccondary", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Acceder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c4d8bd-d0d1-43e8-8c40-006316f57248",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbb9e67c-506d-4aa5-80c4-891b67834ac0",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Datos incompletos",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "70424c8b-6b4d-47cb-9506-9cb782be35f5",
+    "name": "Paquetes-Acceder",
+    "commands": [{
+      "id": "89b500b8-8d0f-4b95-810c-01165f15b80d",
+      "comment": "",
+      "command": "open",
+      "target": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ff147fe-fa70-49b9-bd98-347640364016",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d04efe2-077e-4b22-b6b8-056d2182b505",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dark-primary",
+      "targets": [
+        ["css=.btn-dark-primary", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c9e0d6-b92b-4854-9f62-173441e6e3c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e74497a-cc0a-4801-94ce-b307a19c4c56",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "75660f7d-1222-45f9-8133-05ad6c63add3",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf23cd47-cdf8-4054-9975-60ce5ac3213d",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "de50e57a-6fe6-46e8-9e8e-085d67425654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a33cf50c-956d-42f0-8b08-1e07673a409f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-gray",
+      "targets": [
+        ["css=.btn-gray", "css:finder"],
+        ["xpath=//div[@id='alert']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver paquetes disponibles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "36d10329-f796-418e-8b3d-1358496c8c5f",
+    "name": "Paquete-Seleccionar",
+    "commands": [{
+      "id": "32126f44-e9f4-4379-abfd-4a4d499b81ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://joaquinmatias99.github.io/RepositorioTP/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2aff2f6-74b7-4185-84b6-69c8512daf17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7f7c1b7-4e9f-4a85-8da7-03ba24527259",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-dark-primary",
+      "targets": [
+        ["css=.btn-dark-primary", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "740ada4a-a393-402b-843c-c214f46121ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "309a1402-a59a-4b16-8780-19bfbd2ba8a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "59c3c1ad-e09b-4500-9ee9-c8147b2f7fe4",
+      "comment": "",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8ada1fa-4695-4952-b0e1-cc2c14a149e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "ef7a4584-f6ca-4b66-9895-e99bc5ab966a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@onclick='showAlert()']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec41795e-7175-4b76-86e7-92e591df8d82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-gray",
+      "targets": [
+        ["css=.btn-gray", "css:finder"],
+        ["xpath=//div[@id='alert']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver paquetes disponibles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c808bf4-d7b9-413e-bdc4-b60aff9ca07c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(1) img",
+      "targets": [
+        ["css=.item-container:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='200']", "xpath:img"],
+        ["xpath=//div[@id='item-list-container']/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e203252-67ca-4ba1-9d3b-1f044ad74e9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-container:nth-child(1) a",
+      "targets": [
+        ["css=.item-container:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Reservar')]", "xpath:link"],
+        ["xpath=//div[@id='item-list-container']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './seleccionpasaje2.html')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0b83895a-8413-4356-89c2-9d040b1853ae",
+    "name": "Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74518f6c-990c-4d66-b728-45f1b83fbdea", "5abe7c86-ad16-405a-a0ae-93032ed701ad", "095d8034-abfe-4f97-83c6-0dec54676976"]
+  }, {
+    "id": "b9ab6826-0aac-4b2b-8a73-8f55d9630450",
+    "name": "Paquetes",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36d10329-f796-418e-8b3d-1358496c8c5f", "70424c8b-6b4d-47cb-9506-9cb782be35f5"]
+  }],
+  "urls": ["https://joaquinmatias99.github.io/", "https://joaquinmatias99.github.io/RepositorioTP/home.html"],
+  "plugins": []
+}

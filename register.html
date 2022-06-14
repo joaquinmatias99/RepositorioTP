@@ -24,6 +24,7 @@
 	<div>
 		<div class="form-container">
 			<span class="form-title">Registrate</span>
+			<label style="text-align: left;">¡Ingresa tus datos!</label>
 			<input id="nombre" type="text" placeholder="Nombre" />
 			<input id="apellido" type="text" placeholder="Apellido" />
 			<input id="dni" type="text" placeholder="Documento" />
@@ -31,7 +32,7 @@
 			<input id="telefono" type="text" placeholder="Teléfono" />
 			<input id="correo" type="text" placeholder="Correo Electronico" />
 			<td><input id="contra" type="password" placeholder="Contraseña"></td>
-			<th>Nacimiento: </th>
+			<label style="text-align: left;">Fecha de nacimiento</label>
 			<input type="date" id="nacimiento" step="1" min="1920-01-01" max="2003-1-1" value="?php echo date("
 				Y-m-d");?>
 			<a><button class="btn btn-primary" type="button" onclick="showAlert()">Confirmar registro</button></a>

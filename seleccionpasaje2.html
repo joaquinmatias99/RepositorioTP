@@ -18,27 +18,40 @@
 	</div>
 	<div>
 		<div class="form-container">
-			<span class="form-title">Seleccion de Pasaje</span>
+			<span class="form-title">Cargar pasajero y agregar metodo de pago</span>
 			<input id="nombre" type="text" placeholder="Nombre" />
 			<input id="apellido" type="text" placeholder="Apellido" />
 			<input id="dni" type="text" placeholder="Documento" />
 			<input id="domicilio" type="text" placeholder="Domicilio" />
-			<input id="telefono" type="text" placeholder="Teléfono" />
-			<input id="correo" type="text" placeholder="Correo Electronico" />
 			<label style="text-align: left;">Metodo pago:</label>
 			<select id="mpago" class="selectpicker">
 				<option value="mp">Mercado Pago</option>
 				<option value="tc">Tarjeta de Credito</option>
 				<option value="pf">Pago Facil</option>
 			</select>
-			<a><button class="btn btn-primary" type="button" onclick="openForm()">Confirmar Pasaje</button></a>
+
+			<label style="text-align: left;">¿Posee alguna discapacidad?</label>
+			<select id="discapacidad" class="selectpicker">
+				<option value="mp">Seleccionar</option>
+				<option value="tc">Si</option>
+				<option value="pf">No</option>
+			</select>
+
+			<label style="text-align: left;">¿Necesita acompañante?</label>
+			<select id="acompañante" class="selectpicker">
+				<option value="mp">Seleccionar</option>
+				<option value="tc">Si</option>
+				<option value="pf">No</option>
+			</select>
+
+			<a><button class="btn btn-primary" type="button" onclick="openForm()">Confirmar reserva</button></a>
 			<a href="./items2.html"><button class="btn btn-seccondary" type="button" onclick="">Cancelar</button></a>
 
 		</div>
 
 		<div id="alert" class="alert-background">
 			<div class="alert-container">
-				<h4 class="form-title">¡Gracias por registrarte en wwww.buquealtoque.com!</h4>
+				<h4 class="form-title">¡Gracias por reservar en wwww.buquealtoque.com!</h4>
 				<hr>
 				<br>
 				<a href="./home2.html"><button class="btn-primary">Ir al home</button></a>
@@ -52,9 +65,7 @@
 				var ape = document.getElementById('apellido').value;
 				var dni = document.getElementById('dni').value;
 				var dom = document.getElementById('domicilio').value;
-				var tel = document.getElementById('telefono').value;
-				var email = document.getElementById('correo').value;
-				var cont = document.getElementById('contra').value;
+
 
 				if (nom == '') {
 					error = true;
@@ -68,15 +79,7 @@
 				if (dom == '') {
 					error = true;
 				}
-				if (tel == '') {
-					error = true;
-				}
-				if (email == '') {
-					error = true;
-				}
-				if (cont == '') {
-					error = true;
-				}
+		
 				if (!error)
 					document.getElementById('alert').style.display = "block";
 				else

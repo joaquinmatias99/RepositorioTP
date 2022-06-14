@@ -28,12 +28,13 @@
 				<input id="domicilio" type="text" placeholder="Domicilio"/>
 				<input id="telefono" type="text" placeholder="Teléfono"/>				
 				<input id="correo" type="text" placeholder="Correo Electronico"/>
-				<td><input id="contra" type="password" placeholder="Contraseña" required="required" onchange="comprobarDatos('contra')"/></td>
+				<td><input id="contra" type="password" placeholder="Contraseña"></td>
 				<th>Nacimiento: </th>
                 <input type="date" id="nacimiento" step="1" min="1920-01-01" max="2003-1-1" value="?php echo date("Y-m-d");?>
 
-
-				<button class="buttonRegistro" type="button" id="registrar" onclick="comprobarDatos()">Terminar Registro.</button>
+			
+				<a href="./home2.html"><button class="btn btn-primary">Registrarse</button></a>
+				
 			
 		
 				
@@ -54,11 +55,7 @@
 
 
 	
-	function comprobrarDatos()
-	{
-		alert('sad');
-		console.log("asd");
-	}
+	
 
 
 </script>

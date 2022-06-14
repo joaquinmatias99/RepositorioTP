@@ -10,7 +10,7 @@
 <body>
 	<div class="header">
 		<div class="header-logo-container">
-			<a href="./home.html"><img class="primary-logo" src="./assets/logos/primary-logo.svg" alt="20" /></a>
+			<img class="primary-logo" src="./assets/logos/primary-logo.svg" alt="20" />
 		</div>
 		<div class="search-bar-container">
 			<input placeholder="Buscá una reserva" />
@@ -34,7 +34,8 @@
 			<th>Nacimiento: </th>
 			<input type="date" id="nacimiento" step="1" min="1920-01-01" max="2003-1-1" value="?php echo date("
 				Y-m-d");?>
-			<button class="buttonRegistro" type="button" onclick="showAlert()">Confirmar registro</button></a>
+			<a><button class="btn btn-primary" type="button" onclick="showAlert()">Confirmar registro</button></a>
+			<a href="./Home.html"><button class="btn btn-seccondary" type="button" onclick="">Cancelar</button></a>
 
 		</div>
 

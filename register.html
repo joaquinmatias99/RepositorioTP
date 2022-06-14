@@ -22,16 +22,21 @@
 		<div>
 			<div class="form-container">
 				<span class="form-title">Registrate</span>
-				<input class="input" placeholder="Nombre"/>
-				<input class="input" placeholder="Email"/>
-				<input class="input" placeholder="Teléfono"/>
-				<select class="input" onchange="handleUserRolChange(this.value)">
-					<option value="p">Empleado comercial</option>
-					<option value="w">Cliente</option>
-				</select>
-				<div id="dynamic-user-info"></div>
-				<button class="btn btn-primary" onclick="showAlert()">Registrarse</button>
-			</div>
+				<input id="nombre" type="text" placeholder="Nombre"/>
+				<input id="apellido" type="text" placeholder="Apellido"/>
+				<input id="dni" type="text" placeholder="Documento" />
+				<input id="domicilio" type="text" placeholder="Domicilio"/>
+				<input id="telefono" type="text" placeholder="Teléfono"/>				
+				<input id="correo" type="text" placeholder="Correo Electronico"/>
+				<td><input id="contra" type="password" placeholder="Contraseña" required="required" onchange="comprobarDatos('contra')"/></td>
+				<th>Nacimiento: </th>
+                <input type="date" id="nacimiento" step="1" min="1920-01-01" max="2003-1-1" value="?php echo date("Y-m-d");?>
+
+
+				<button class="buttonRegistro" type="button" id="registrar" onclick="comprobarDatos()">Terminar Registro.</button>
+			
+		
+				
 		</div>
 
 		<div id="alert" class="alert-background">
@@ -44,38 +49,18 @@
 		</div>
 
 	</body>
-	<script type="text/javascript">
-/*
-		const activityInfoInput = `<input id="activity-info" class="input" placeholder="Inforación de actividades"/>`;
-		const interestsDescription = `<input id="interets-desc" class="input" placeholder="Descripción de intereses"/>`;
 
-		(function() {
-			handleUserRolChange('p');
-		})();
+	<script>
 
-		function handleUserRolChange(value) {
-			document.getElementById('activity-info')?.remove();
-			document.getElementById('interets-desc')?.remove();
 
-			let auxDiv = document.createElement('div');
-			switch (value) {
-				case 'w': {
-					auxDiv.innerHTML = activityInfoInput;
-					document.getElementById('dynamic-user-info').appendChild(auxDiv.firstChild);
-					break;
-				}
-				case 'p': {
-					auxDiv.innerHTML = interestsDescription;
-					document.getElementById('dynamic-user-info').appendChild(auxDiv.firstChild);
-					break;
-				}
-			}
-		}
-*/
-		function showAlert() {
-			var alert = document.getElementById('alert');
-			alert.style.display = 'block';
-		}
+	
+	function comprobrarDatos()
+	{
+		alert('sad');
+		console.log("asd");
+	}
 
-	</script>
+
+</script>
+
 </html>
